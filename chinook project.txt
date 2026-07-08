@@ -1,0 +1,92 @@
+album==> AlbumId , ArtistId , Title
+
+artist ==> ArtistId , Name
+
+customer==>Address ,City,Country,CustomerId,Email,FirstName,LastName,Full-Name,PostalCode,State,SupportRepId
+
+employee==>Address
+
+BirthDate
+
+City
+
+Country
+Email
+
+Employeeld
+
+Fax
+
+FirstName
+
+Full-Name
+
+HireDate
+
+LastName
+
+Phone
+
+PostalCode
+
+Σ ReportsTo
+
+State
+
+Title
+
+genre==>GenreId,Name
+
+invoice==>BillingAddress
+
+BillingCity
+
+BillingCountry
+
+BillingPostalCode
+
+BillingState
+
+Customerld
+
+InvoiceDate
+
+Invoiceld
+
+Σ Total
+
+invoiceline==>Invoiceld
+
+Σ InvoiceLineld
+
+Σ Quantity
+
+Trackld
+
+Σ UnitPrice
+
+mediatype==>MediaTypeld
+
+Name
+
+playlist==>Name , PlaylistId
+
+playlisttrack==> PlaylistId,TrackId
+
+track==>Albumld
+
+Composer
+
+Genreld
+
+MediaTypeld
+E Megabytes(size)
+2 Milliseconds
+
+E Minutes
+
+Name
+
+Trackld
+
+E UnitPrice
