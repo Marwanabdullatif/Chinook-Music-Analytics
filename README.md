@@ -8,16 +8,16 @@ An end-to-end business intelligence and data modeling project focused on transfo
 *A visual walkthrough of the dynamic 4-page report and its underlying architecture:*
 
 ### 📐 Optimized Star Schema Data Model
-![Chinook Data Model](modeling.png)
+![Chinook Data Model](Chinook%20Modiling.png)
 
 ### 📈 Interactive Executive Pages
 | Page 1: Sales Overview | Page 2: Customer Insights |
 |---|---|
-| ![Overview](dashboard_1.png) | ![Customer Insights](dashboard_2.png) |
+| ![Overview](Sales%20Overview.png) | ![Customer Insights](Customer%20Insights.png) |
 
 | Page 3: Music Performance | Page 4: Employee Analysis |
 |---|---|
-| ![Music Performance](dashboard_3.png) | ![Employee Analysis](dashboard_4.png) |
+| ![Music Performance](Music%20Performance.png) | ![Employee Analysis](Employee%20Analysis.png) |
 
 ---
 
@@ -30,25 +30,23 @@ An end-to-end business intelligence and data modeling project focused on transfo
 ---
 
 ## 📐 Data Modeling (Star Schema)
-To ensure optimal reporting performance and efficient cross-tabulation analytics, the relational database was restructured from a transactional format into a clean Star Schema[cite: 1]:
-* **Fact Table:** `FactInvoiceLine` capturing detailed sales metrics (Total Revenue, Tracks Sold, Average Invoice Value)[cite: 1].
+To ensure optimal reporting performance and efficient cross-tabulation analytics, the relational database was restructured from a transactional format into a clean Star Schema:
+* **Fact Table:** `FactInvoiceLine` capturing detailed sales metrics (Total Revenue, Tracks Sold, Average Invoice Value).
 * **Dimension Tables:** `Track` (genres, artists, prices), `Customer` (demographics), `Date` (timelines), and `Employee` (support reps).
 ---
 
 ## 📊 Dashboard Pages & Deep-Dive Sections
-The final interactive report is divided into four specialized pages to give management a 360-degree view of the business[cite: 1]:
-1. **Overview:** High-level summary of total sales, key performance indicators (KPIs), and historical revenue trends[cite: 1].
-2. **Customer Insights:** Geographic distribution analysis and profiling of top-spending customer segments[cite: 1].
+The final interactive report is divided into four specialized pages to give management a 360-degree view of the business:
+1. **Overview:** High-level summary of total sales, key performance indicators (KPIs), and historical revenue trends.
+2. **Customer Insights:** Geographic distribution analysis and profiling of top-spending customer segments.
 3. **Music Performance:** Deep-dive into track-level performance, discovering that core genres like **Rock** and **Metal** heavily dominate overall store sales.
-4. **Employee Analysis:** Evaluation of sales support staff contributions and customer management efficiency[cite: 1].
+4. **Employee Analysis:** Evaluation of sales support staff contributions and customer management efficiency.
 
 ---
 
 ## 📂 Repository Contents
 * 📊 `shinook project.pbix` - The core Power BI dashboard file with the complete data model.
-* 📄 `chinook presentation.pdf` - High-fidelity project presentation and business breakdown[cite: 1].
+* 📄 `chinook presentation.pdf` - High-fidelity project presentation and business breakdown.
 * 📜 `Query Example put in Advanced editor` - Advanced query scripts used during the ETL and data preparation phase.
 * 📝 `README.md` - Project documentation.
 
----
-*Generated as part of my Advanced Data Analytics portfolio.*
